@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Queritet-Diop's Exercise 1</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
+  <body>
+    <h1><a href="/">Link to Start Page</a></h1>
+    <form id="myForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" /><br /><br />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" /><br /><br />
+
+      <label for="paymentType">Payment Type:</label>
+      <br />
+      <input type="radio" id="cash" name="payment" value="cash" />
+      <label for="cash">Cash</label>
+      <br />
+      <input type="radio" id="creditCard" name="payment" value="creditCard" />
+      <label for="creditCard">Credit Card</label>
+      <br />
+      <input type="radio" id="googlePay" name="paymentType" value="googlePay" />
+      <label for="googlePay">Google Pay</label>
+      <br />
+      <input type="radio" id="applePay" name="paymentType" value="applePay" />
+      <label for="applePay">Apple Pay</label>
+      <br /><br />
+
+      <input type="checkbox" id="promo" name="promotion" />
+      <label for="promo">Sign me up for special promotions</label>
+      <br /><br />
+
+      <label for="location">Preferred location:</label>
+      <select id="location" name="location">
+        <option value="Los Angeles">Los Angeles</option>
+        <option value="Orange County">Orange County</option>
+        <option value="Riverside">Riverside</option>
+        <option value="San Diego">San Diego</option>
+      </select>
+      <br /><br />
+
+      <input type="submit" value="Submit" />
+      <input type="reset" value="Cancel" />
+    </form>
+    <br />
+    <p id="result"></p>
+    <script src="/ex1.js"></script>
+  </body>
+</html>
